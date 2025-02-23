@@ -1,21 +1,5 @@
-import openai
-import os
-from dotenv import load_dotenv
+from app.core.llm_processor import generate_gpt4_response
 
-load_dotenv()
-
-# Retrieve API key from environment variables
-api_key = os.getenv("API_KEY")
-
-# Initialize the OpenAI client
-client = openai.OpenAI(api_key=api_key)
-
-# Test chat completion request
-response = client.chat.completions.create(
-    model="gpt-4",
-    messages=[{"role": "user", "content": "Hello, how are you?"}],
-    max_tokens=50
-)
-
-# Print the response
-print(response.choices[0].message.content.strip())
+prompt = "Hello, how can I help you today?"
+response = generate_gpt4_response(prompt)
+print("GPT-4 Response:", response)
