@@ -9,4 +9,4 @@ psycopg2-binary
 twilio
 mysql-connector-python
 faker
-from_root
+openai
