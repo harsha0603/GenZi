@@ -1,0 +1,501 @@
+User Query,Intent Label
+What is the number of bathrooms of a apartment in in the city center?,database_query
+Show me condo with security,database_query
+What's the difference between Java and C++?,irrelevant
+Do you have any duplex with four bedrooms?,database_query
+Do you have any townhouse with one bedrooms?,database_query
+Find me a flat for rent,database_query
+Please let me know what is your name?,irrelevant
+Greetings please,general_query
+Please let me know is it hot outside?,irrelevant
+Please let me know who wrote romeo and juliet?,irrelevant
+I want to get a bungalow,database_query
+What is the location of a studio in downtown?,database_query
+What's up please,general_query
+Good afternoon friend,general_query
+Can you cheer me up with a joke,irrelevant
+Please let me know who is the president of the united states?,irrelevant
+Do you have any house with one bedrooms?,database_query
+Good afternoon there,general_query
+Can you tell me what's the forecast for the weekend?,irrelevant
+I need a house for rent in near schools,database_query
+Can you find me a studio that is security?,database_query
+I want to lease a apartment,database_query
+Who painted the Mona Lisa?,irrelevant
+How are you now,general_query
+Good morning,general_query
+Find me a bungalow for sale,database_query
+Explain object-oriented programming,irrelevant
+I want to show a house,database_query
+Please let me know what is the boiling point of water?,irrelevant
+Sup there,general_query
+Hello mate,general_query
+Howdy friend,general_query
+What's the weather like?,irrelevant
+Find me a bungalow for rent,database_query
+Please let me know is it sunny?,irrelevant
+Can you tell me can you sing?,irrelevant
+Good evening today,general_query
+Afternoon there,general_query
+Can you tell me what's your favorite movie?,irrelevant
+I need a house for sale in close to work,database_query
+Cats are cute,irrelevant
+Please tell me a joke,irrelevant
+Please set an alarm for 7 am,irrelevant
+Afternoon please,general_query
+Hi,general_query
+I need a apartment for lease in by the beach,database_query
+Can you tell me what is your name?,irrelevant
+Good afternoon,general_query
+Do you have any bungalow with one bedrooms?,database_query
+I want to show a townhouse,database_query
+Evening there,general_query
+I need a studio for sale in downtown,database_query
+Morning please,general_query
+Howdy,general_query
+I'm looking for a condo in near the park,database_query
+Afternoon friend,general_query
+What's the time?,irrelevant
+Hello now,general_query
+How are you now,general_query
+Music is life,irrelevant
+Hiya now,general_query
+Can you sing?,irrelevant
+Make me laugh,irrelevant
+How are you,general_query
+What is the amenities of a penthouse in suburbs?,database_query
+I'm looking for a house in suburbs,database_query
+Can you tell me how do i fix my car?,irrelevant
+I need coffee,irrelevant
+Please let me know how's the weather today?,irrelevant
+Can you tell me what's the difference between java and c++?,irrelevant
+I want to rent a studio,database_query
+Hello friend,general_query
+I'm looking for a penthouse in near the park,database_query
+Wassup there,general_query
+I'd like you to explain object-oriented programming,irrelevant
+Can you find me a villa that is balcony?,database_query
+Show me condo with parking,database_query
+I need a penthouse for lease in in the city center,database_query
+What is the boiling point of water?,irrelevant
+Can you say something funny,irrelevant
+I'm looking for a villa in near schools,database_query
+Hey,general_query
+Good morning mate,general_query
+Hiya there,general_query
+Do you know any recipes?,irrelevant
+What's up mate,general_query
+Yo friend,general_query
+Howdy mate,general_query
+Show me flat with furnished,database_query
+Please let me know what's your best joke?,irrelevant
+Show me townhouse with gym,database_query
+Please let me know how do i write a function?,irrelevant
+Good afternoon please,general_query
+Can you find me a duplex that is unfurnished?,database_query
+Greetings mate,general_query
+Wassup mate,general_query
+Can you find me a penthouse that is balcony?,database_query
+Can you tell me will it snow tomorrow?,irrelevant
+I want to get a duplex,database_query
+Find me a townhouse for sale,database_query
+Can you tell me how tall is mount everest?,irrelevant
+I want to lease a townhouse,database_query
+Where are you from?,irrelevant
+I want to rent a duplex,database_query
+Do you have any penthouse with three bedrooms?,database_query
+Wassup now,general_query
+Can you tell me what is the largest planet in the solar system?,irrelevant
+Howdy there,general_query
+Wassup friend,general_query
+Evening,general_query
+Show me townhouse with security,database_query
+Howdy,general_query
+I'd like you to remind me to call john,irrelevant
+Hello please,general_query
+I'm looking for a penthouse in close to work,database_query
+Howdy mate,general_query
+I need a apartment for sale in suburbs,database_query
+Sup please,general_query
+Hello today,general_query
+Greetings mate,general_query
+What is the size of a apartment in suburbs?,database_query
+Can you tell me what's a for loop?,irrelevant
+Can you make me laugh,irrelevant
+Please let me know do i need an umbrella?,irrelevant
+Please let me know what's your favorite movie?,irrelevant
+Can you find me a condo that is unfurnished?,database_query
+What is the price of a apartment in near the park?,database_query
+Can you find me a penthouse that is pet-friendly?,database_query
+Please let me know how many continents are there?,irrelevant
+Hi mate,general_query
+Morning now,general_query
+Do you have any penthouse with five bedrooms?,database_query
+I'm looking for a studio in near the park,database_query
+Afternoon please,general_query
+Afternoon now,general_query
+How are you mate,general_query
+Evening please,general_query
+I'm looking for a villa in suburbs,database_query
+Good afternoon mate,general_query
+Hi there,general_query
+Please let me know will it snow tomorrow?,irrelevant
+Life is beautiful,irrelevant
+Good evening friend,general_query
+Remind me to call John,irrelevant
+Afternoon today,general_query
+Can you play some music,irrelevant
+Can you tell me can you tell a funny story?,irrelevant
+Good evening please,general_query
+When was the Declaration of Independence signed?,irrelevant
+Show me flat with gym,database_query
+Books are great,irrelevant
+Do you have any flat with two bedrooms?,database_query
+Find me a apartment for lease,database_query
+Good evening mate,general_query
+Please say something funny,irrelevant
+Please i need a laugh,irrelevant
+Do you have any flat with one bedrooms?,database_query
+I'd like you to play some music,irrelevant
+Evening,general_query
+Wassup today,general_query
+I love traveling,irrelevant
+Can you find me a villa that is furnished?,database_query
+I need a penthouse for sale in by the beach,database_query
+I'd like you to tell me something hilarious,irrelevant
+Please let me know what's the difference between java and c++?,irrelevant
+Greetings friend,general_query
+Hey today,general_query
+Can you think?,irrelevant
+Please let me know what's the temperature outside?,irrelevant
+Please let me know when was the declaration of independence signed?,irrelevant
+Hiya please,general_query
+Yo please,general_query
+Good evening,general_query
+Please let me know can you tell a funny story?,irrelevant
+Please let me know what is the largest planet in the solar system?,irrelevant
+I'm looking for a apartment in near the park,database_query
+Can you tell me who painted the mona lisa?,irrelevant
+I want to lease a penthouse,database_query
+Please let me know what's a for loop?,irrelevant
+Find me a apartment for rent,database_query
+Do you know any jokes?,irrelevant
+Can you find me a bungalow that is pool?,database_query
+Wassup mate,general_query
+Morning,general_query
+What's up,general_query
+Can you help me with programming?,irrelevant
+Good morning there,general_query
+What is the area of a house in suburbs?,database_query
+Show me studio with pool,database_query
+Can you explain object-oriented programming,irrelevant
+Hiya today,general_query
+Please let me know do you know any jokes?,irrelevant
+Howdy now,general_query
+What is the amenities of a duplex in near schools?,database_query
+Show me apartment with gym,database_query
+Yo today,general_query
+What's up friend,general_query
+Please let me know where are you from?,irrelevant
+I'd like you to cheer me up with a joke,irrelevant
+I hate Mondays,irrelevant
+Morning friend,general_query
+Morning today,general_query
+Please let me know what is a variable?,irrelevant
+Show me flat with garden,database_query
+I want to get a apartment,database_query
+Who is the president of the United States?,irrelevant
+Hello now,general_query
+Show me house with security,database_query
+Please let me know do you have feelings?,irrelevant
+Please let me know what's the meaning of life?,irrelevant
+Can you tell me is it hot outside?,irrelevant
+Can you tell me when was the declaration of independence signed?,irrelevant
+What is the number of bedrooms of a house in in a quiet area?,database_query
+Yo now,general_query
+Hey mate,general_query
+Good morning today,general_query
+How do I debug my code?,irrelevant
+I need a duplex for rent in in a quiet area,database_query
+I'd like you to tell me a story,irrelevant
+Morning mate,general_query
+Good evening there,general_query
+I want to buy a duplex,database_query
+I want to find a house,database_query
+I want to show a condo,database_query
+Exercise is important,irrelevant
+Please let me know how do i fix my car?,irrelevant
+I need a laugh,irrelevant
+Can you tell me what is the currency of japan?,irrelevant
+Please let me know how old are you?,irrelevant
+Hi there,general_query
+I'm looking for a studio in in a quiet area,database_query
+Find me a flat for sale,database_query
+Evening now,general_query
+Can you tell me do you sleep?,irrelevant
+Good afternoon mate,general_query
+Can you tell me is it sunny?,irrelevant
+Please let me know what is the capital of france?,irrelevant
+Are you a robot?,irrelevant
+How do I use arrays?,irrelevant
+I'm looking for a bungalow in in a quiet area,database_query
+Wassup please,general_query
+What's up mate,general_query
+Can you tell me what is a variable?,irrelevant
+Good morning now,general_query
+Can you tell me something hilarious,irrelevant
+Show me studio with gym,database_query
+Sup now,general_query
+Evening please,general_query
+Can you tell me what's the weather like?,irrelevant
+Can you tell me what do you like to do?,irrelevant
+Find me a studio for sale,database_query
+Do you have any studio with four bedrooms?,database_query
+Hiya now,general_query
+I want to find a apartment,database_query
+I want to find a flat,database_query
+What is the area of a villa in in a quiet area?,database_query
+How's the weather in New York?,irrelevant
+I want to find a bungalow,database_query
+Do you have any penthouse with four bedrooms?,database_query
+Good evening mate,general_query
+The sky is blue,irrelevant
+I'd like you to i need a laugh,irrelevant
+Can you find me a apartment that is furnished?,database_query
+Hello today,general_query
+Find me a villa for sale,database_query
+What's up today,general_query
+Wassup today,general_query
+Evening today,general_query
+Good afternoon today,general_query
+I want to show a penthouse,database_query
+Can you find me a villa that is garden?,database_query
+Can you find me a house that is parking?,database_query
+Do you have feelings?,irrelevant
+I want to lease a villa,database_query
+I'm looking for a bungalow in suburbs,database_query
+What's a class in programming?,irrelevant
+Wassup friend,general_query
+I like pizza,irrelevant
+I need a townhouse for sale in suburbs,database_query
+Please let me know can you sing?,irrelevant
+How are you friend,general_query
+I'd like you to say something funny,irrelevant
+Can you set an alarm for 7 am,irrelevant
+I'm looking for a condo in by the beach,database_query
+Please remind me to call john,irrelevant
+I'm looking for a townhouse in near schools,database_query
+Please cheer me up with a joke,irrelevant
+Tell me something hilarious,irrelevant
+Can you tell me do i need an umbrella?,irrelevant
+Find me a studio for lease,database_query
+What is the year built of a apartment in suburbs?,database_query
+Hi today,general_query
+Hey please,general_query
+Please let me know do you sleep?,irrelevant
+Find me a bungalow for lease,database_query
+Good evening now,general_query
+I need a flat for rent in close to work,database_query
+Good morning today,general_query
+Can you tell me how old are you?,irrelevant
+Show me villa with pool,database_query
+Can you find me a condo that is furnished?,database_query
+I'm looking for a penthouse in suburbs,database_query
+Show me studio with unfurnished,database_query
+What is the currency of Japan?,irrelevant
+Find me a duplex for rent,database_query
+Sup please,general_query
+Howdy today,general_query
+Will it snow tomorrow?,irrelevant
+Howdy,general_query
+Afternoon now,general_query
+Sup mate,general_query
+Greetings there,general_query
+Hi please,general_query
+Hello there,general_query
+How do I code in Python?,irrelevant
+Hi now,general_query
+Can you find me a condo that is pool?,database_query
+What do you like to do?,irrelevant
+Greetings,general_query
+Cheer me up with a joke,irrelevant
+Can you find me a apartment that is with a view?,database_query
+I need a bungalow for rent in downtown,database_query
+What's up please,general_query
+Do you sleep?,irrelevant
+I need a flat for rent in near schools,database_query
+Find me a penthouse for lease,database_query
+Hiya friend,general_query
+Evening friend,general_query
+I need a villa for sale in in the city center,database_query
+Afternoon friend,general_query
+I need a apartment for sale in near schools,database_query
+Show me duplex with gym,database_query
+I need a bungalow for sale in near schools,database_query
+Can you tell me do you know any recipes?,irrelevant
+I want to find a townhouse,database_query
+Do I need an umbrella?,irrelevant
+I want to get a penthouse,database_query
+Hey now,general_query
+Do you have any apartment with two bedrooms?,database_query
+Can you tell me do you have a sense of humor?,irrelevant
+Afternoon,general_query
+Show me duplex with parking,database_query
+I'd like you to set an alarm for 7 am,irrelevant
+Show me studio with balcony,database_query
+What is your name?,irrelevant
+What is the price of a house in in the city center?,database_query
+Good morning now,general_query
+I want to rent a apartment,database_query
+Show me condo with garden,database_query
+Greetings now,general_query
+Can you tell me what's the meaning of life?,irrelevant
+I'm looking for a duplex in by the beach,database_query
+Good afternoon now,general_query
+Show me condo with with a view,database_query
+Can you find me a apartment that is pet-friendly?,database_query
+What is the price of a villa in near schools?,database_query
+Yo today,general_query
+Good morning please,general_query
+Yo,general_query
+I'm looking for a apartment in downtown,database_query
+Good morning please,general_query
+Sup,general_query
+What is the rent of a bungalow in in a quiet area?,database_query
+Can you find me a bungalow that is gym?,database_query
+Do you have any condo with five bedrooms?,database_query
+Good afternoon there,general_query
+Good afternoon,general_query
+Can you tell me who is the president of the united states?,irrelevant
+Wassup,general_query
+I'm looking for a house in downtown,database_query
+Is it hot outside?,irrelevant
+What's the forecast for the weekend?,irrelevant
+Hello,general_query
+Wassup mate,general_query
+Morning please,general_query
+Hi mate,general_query
+Is it going to rain?,irrelevant
+What is the address of a house in close to work?,database_query
+I'm looking for a apartment in close to work,database_query
+Show me studio with furnished,database_query
+Do you have any penthouse with two bedrooms?,database_query
+Sup today,general_query
+Can you tell me what's the time?,irrelevant
+Please let me know how do i debug my code?,irrelevant
+I'm looking for a apartment in in the city center,database_query
+What's up there,general_query
+I want to buy a flat,database_query
+Can you tell me how's the weather in new york?,irrelevant
+Find me a condo for rent,database_query
+Hey friend,general_query
+Hey friend,general_query
+Can you tell me do you have any hobbies?,irrelevant
+Can you tell me can you help me with programming?,irrelevant
+What is the capital of France?,irrelevant
+What is the address of a townhouse in in a quiet area?,database_query
+Please let me know how do i use arrays?,irrelevant
+I'm looking for a duplex in downtown,database_query
+What's a for loop?,irrelevant
+Find me a flat for lease,database_query
+Can you tell me how do i write a function?,irrelevant
+Hi friend,general_query
+I need a flat for sale in by the beach,database_query
+Please let me know how do i code in python?,irrelevant
+Good evening today,general_query
+How old are you?,irrelevant
+Can you find me a studio that is balcony?,database_query
+What is the rent of a apartment in near the park?,database_query
+Good afternoon mate,general_query
+Hi mate,general_query
+Hiya mate,general_query
+Hiya friend,general_query
+How are you today,general_query
+Evening mate,general_query
+Can you remind me to call john,irrelevant
+Tell me a joke,irrelevant
+Who wrote Romeo and Juliet?,irrelevant
+Can you tell me where are you from?,irrelevant
+How are you please,general_query
+Can you tell me do you have feelings?,irrelevant
+Can you find me a bungalow that is garden?,database_query
+I want to show a villa,database_query
+Morning there,general_query
+Hi,general_query
+Can you find me a duplex that is with a view?,database_query
+I want to get a condo,database_query
+Afternoon mate,general_query
+Please let me know do you have a sense of humor?,irrelevant
+What is the year built of a bungalow in near schools?,database_query
+Play some music,irrelevant
+How are you there,general_query
+What's your favorite color?,irrelevant
+Hello mate,general_query
+Good afternoon there,general_query
+Please let me know who painted the mona lisa?,irrelevant
+Can you tell me a joke,irrelevant
+Can you tell a funny story?,irrelevant
+Do you have any studio with three bedrooms?,database_query
+Do you have any house with two bedrooms?,database_query
+Say something funny,irrelevant
+Please tell me a story,irrelevant
+Do you have any villa with one bedrooms?,database_query
+What is the largest planet in the solar system?,irrelevant
+I need a studio for lease in by the beach,database_query
+Show me duplex with balcony,database_query
+I'd like you to tell me a joke,irrelevant
+Hey mate,general_query
+What's up now,general_query
+Can you tell me a story,irrelevant
+Yo there,general_query
+Can you tell me what's a class in programming?,irrelevant
+Can you tell me what is the capital of france?,irrelevant
+What is the area of a duplex in in a quiet area?,database_query
+Evening mate,general_query
+How are you,general_query
+Howdy please,general_query
+Sup friend,general_query
+Hiya,general_query
+Evening there,general_query
+I need a studio for lease in suburbs,database_query
+Can you tell me who wrote romeo and juliet?,irrelevant
+I'm looking for a villa in downtown,database_query
+Can you tell me what's the temperature outside?,irrelevant
+How's the weather today?,irrelevant
+Good morning friend,general_query
+What is the location of a villa in downtown?,database_query
+Set an alarm for 7 AM,irrelevant
+I need a duplex for sale in near the park,database_query
+Please let me know do you know any recipes?,irrelevant
+I'm looking for a penthouse in downtown,database_query
+Greetings today,general_query
+Greetings,general_query
+Please let me know do you have any hobbies?,irrelevant
+I want to rent a villa,database_query
+Please let me know what is the currency of japan?,irrelevant
+I'm looking for a townhouse in by the beach,database_query
+Do you have any apartment with four bedrooms?,database_query
+Can you find me a condo that is gym?,database_query
+What is the number of bedrooms of a apartment in downtown?,database_query
+Please let me know what's the time?,irrelevant
+I need a condo for sale in downtown,database_query
+Can you tell me can you think?,irrelevant
+Do you have any penthouse with one bedrooms?,database_query
+What is the number of bathrooms of a apartment in close to work?,database_query
+I want to buy a apartment,database_query
+I'm looking for a penthouse in by the beach,database_query
+Tell me a story,irrelevant
+How are you there,general_query
+Please play some music,irrelevant
+Please let me know what's a class in programming?,irrelevant
+What's the temperature outside?,irrelevant
+Show me apartment with pet-friendly,database_query
+Greetings friend,general_query
+How do I fix my car?,irrelevant
+Yo please,general_query
+Howdy mate,general_query
+Yo mate,general_query
+Find me a penthouse for sale,database_query
+Hey there,general_query
+Please explain object-oriented programming,irrelevant
+Can you i need a laugh,irrelevant

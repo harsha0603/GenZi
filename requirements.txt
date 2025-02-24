@@ -10,3 +10,7 @@ twilio
 mysql-connector-python
 faker
 openai
+python_multipart
+ipykernel
+pandas
+scikit-learn

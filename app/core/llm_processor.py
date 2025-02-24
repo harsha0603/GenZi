@@ -9,7 +9,8 @@ GPT4_API_KEY = os.getenv("API_KEY")
 
 def generate_gpt4_response(prompt: str) -> str:
     """
-    Sends a prompt to the GPT-4 chat completions API and returns the generated response text.
+    Sends a prompt to the GPT-4 chat completions API and returns the generated response text,
+    conditioning the response as a knowledgeable real estate chatbot agent.
     """
     headers = {
         "Content-Type": "application/json",
@@ -18,12 +19,15 @@ def generate_gpt4_response(prompt: str) -> str:
     payload = {
         "model": "gpt-4",
         "messages": [
+            {
+                "role": "system",
+                "content": "You are a friendly and knowledgeable real estate chatbot agent specializing in Singapore properties. Answer queries with clarity and in a professional tone, using real estate terminology where appropriate."
+            },
             {"role": "user", "content": prompt}
         ],
-        "max_tokens": 150,     
-        "temperature": 0.7,     
+        "max_tokens": 150,
+        "temperature": 0.7,
     }
-
     response = requests.post(GPT4_API_URL, json=payload, headers=headers)
     
     if response.status_code == 200:
