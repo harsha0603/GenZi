@@ -1,5 +1,3 @@
-# scripts/insert_large_dummy_data.py
-
 from datetime import timedelta
 import random
 from faker import Faker
