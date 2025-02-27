@@ -1,45 +1,77 @@
-from sqlalchemy.orm import Session
-from app.db.database import Property
+from sqlalchemy.orm import Session, joinedload
+from sqlalchemy import and_
+from app.db.database import Property, Room, Washroom  # Fixed model name
 
 def build_property_query(db: Session, params: dict):
     """
-    Builds a SQLAlchemy query for properties based on extracted parameters.
-    
+    Builds a SQLAlchemy query to fetch property listings along with room and washroom details.
+
     Expected keys in params:
-        - property_type: string or None (e.g., "apartment", "villa")
-        - min_rent: number or None
-        - max_rent: number or None
-        - building_name: string or None
-        - address: string or None
+        - property_type (str or None): e.g., "apartment", "villa"
+        - min_rent (int or None)
+        - max_rent (int or None)
+        - num_bedrooms (int or None)
+        - num_washrooms (int or None)
+        - building_name (str or None)
+        - address (str or None)
+        - location_preference (str or None): "nearby", "in", etc.
+        - amenities (list of str or None): e.g., ["gym", "pool"]
     
-    Returns a list of Property objects matching the criteria.
+    Returns a structured list of properties with related room and washroom details.
     """
-    query = db.query(Property)
-    
-    property_type = params.get("property_type")
-    if property_type:
-        query = query.filter(Property.type.ilike(f"%{property_type}%"))
-    
-    min_rent = params.get("min_rent")
-    max_rent = params.get("max_rent")
-    if min_rent is not None:
-        try:
-            query = query.filter(Property.rent_price >= float(min_rent))
-        except ValueError:
-            pass  
-    if max_rent is not None:
-        try:
-            query = query.filter(Property.rent_price <= float(max_rent))
-        except ValueError:
-            pass
-    
-    building_name = params.get("building_name")
-    if building_name:
-        query = query.filter(Property.building_name.ilike(f"%{building_name}%"))
-    
-    address = params.get("address")
-    if address:
-        query = query.filter(Property.address.ilike(f"%{address}%"))
-    
+    query = db.query(Property).options(
+        joinedload(Property.rooms),      # Load related Room data
+        joinedload(Property.washrooms)   # Load related Washroom data
+    )
+
+    # 🔹 Property Type Filter
+    if params.get("property_type"):
+        query = query.filter(Property.type.ilike(f"%{params['property_type']}%"))
+
+    # 🔹 Rent Range Filters
+    if params.get("min_rent") is not None:
+        query = query.filter(Property.rent_price >= float(params["min_rent"]))
+    if params.get("max_rent") is not None:
+        query = query.filter(Property.rent_price <= float(params["max_rent"]))
+
+    # 🔹 Bedroom Filter
+    if params.get("num_bedrooms") is not None:
+        query = query.join(Room).filter(Room.count == int(params["num_bedrooms"]))
+
+    # 🔹 Washroom Filter
+    if params.get("num_washrooms") is not None:
+        query = query.join(Washroom).filter(Washroom.count == int(params["num_washrooms"]))
+
+    # 🔹 Location Filter (Handles "nearby", "exact match")
+    if params.get("address"):
+        if params.get("location_preference") == "nearby":
+            query = query.filter(Property.address.ilike(f"%{params['address']}%"))
+        else:
+            query = query.filter(Property.address == params["address"])
+
+    # 🔹 Building Name Filter
+    if params.get("building_name"):
+        query = query.filter(Property.building_name.ilike(f"%{params['building_name']}%"))
+
+    # 🔹 Amenities Filter (Handles multiple selections)
+    if params.get("amenities"):
+        amenity_filters = [Property.amenities.ilike(f"%{a}%") for a in params["amenities"]]
+        query = query.filter(and_(*amenity_filters))
+
+    # 🔹 Fetch and structure data
     results = query.all()
-    return results
+    property_list = []
+    
+    for prop in results:
+        property_list.append({
+            "property_id": prop.id,
+            "building_name": prop.building_name,
+            "type": prop.type,
+            "rent_price": prop.rent_price,
+            "address": prop.address,
+            "amenities": prop.amenities.split(",") if prop.amenities else [],  # Convert CSV string to list
+            "rooms": [{"count": room.count, "size": room.size} for room in prop.rooms],  
+            "washrooms": [{"count": washroom.count, "type": washroom.type} for washroom in prop.washrooms]  
+        })
+
+    return property_list
